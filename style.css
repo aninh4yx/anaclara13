@@ -31,3 +31,6 @@ body{
     width: 100%;
     font-size: 32px;
 }
+.conteudo-principal span{
+    color: var(--amarelo);
+}
