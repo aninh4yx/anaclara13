@@ -17,3 +17,7 @@ body{
     color: var(--branco);
     font-family: 'Chakra Petch', '';
 }
+.conteudo.principa{
+    display: flex;
+    flex-direction: column;
+}
