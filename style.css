@@ -34,3 +34,6 @@ body{
 .conteudo-principal span{
     color: var(--amarelo);
 }
+.botao{
+    font-family: "Chakra Petch", Sans-serif;
+}
