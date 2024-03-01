@@ -7,9 +7,9 @@
     --vermelho: #FF9DA9;
     --amarelo: #FFCB9A;
     --roxo: #9662AE;
-    --rosa: #ffbae4;
+    --rosa: #ffa2dc;
     --rosa-fundo: #FFDFDF;
-    --botao-inativo: #c8e0ff;
+    --botao-inativo: #ffd0ea;
 }
 body{
     background-color: var(--rosa-fundo);
