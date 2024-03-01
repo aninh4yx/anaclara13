@@ -9,7 +9,7 @@
     --roxo: #9662AE;
     --rosa: #ffbae4;
     --rosa-fundo: #FFDFDF;
-    --botao-inativo: #f7ccff;
+    --botao-inativo: #fdffe0;
 }
 body{
     background-color: var(--rosa-fundo);
