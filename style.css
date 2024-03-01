@@ -10,6 +10,8 @@
     --rosa: #ffa2dc;
     --rosa-fundo: #FFDFDF;
     --botao-inativo: #ffd0ea;
+    --botao-ativo: var(--amarelo)
+
 }
 body{
     background-color: var(--rosa-fundo);
@@ -42,4 +44,6 @@ body{
     padding: 1em;
     font-size: 18px;
     align-items: center;
+    width: 100%;
+    border-bottom: 4px solid var();
 }
