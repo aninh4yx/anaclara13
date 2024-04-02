@@ -58,6 +58,13 @@ body{
     background-color: var(--amarelo);
     border-bottom: 4px solid var(--rosa);
 }
+ 
+.abas-texto{
+background-color: var(--rosa-fundo);
+padding: 40px;
+border-radius: 0 0 40px 40px;
+}
+
 .titulo-principal{
     text-align: left;
     width: 100%;
