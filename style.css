@@ -65,6 +65,10 @@ padding: 40px;
 border-radius: 0 0 40px 40px;
 }
 
+.aba-conteudo.ativo{
+    display: block;
+}
+
 .titulo-principal{
     text-align: left;
     width: 100%;
