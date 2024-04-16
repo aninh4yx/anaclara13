@@ -13,5 +13,13 @@ for (let i = 0; i < botoes.length; i++){
 }
 const contadores = document.querySelectorAll(".contador");
 const tempoObjetivo1 = new Date("2024-12-01T00:00:00");
-let tempoAnual = new Date ();
-contadores[0].textContent = tempoObjetivo1 - tempoAnual;
+function calculaTempo(tempoObjetivo1){
+    let tempoAnual = new Date();
+    contadores[0].textContent = tempoObjetivo1 - tempoAnual;
+    let segundos = Math.floor(tempoFinal / 1000);
+    let minutos = Math.floor(segundos/ 60);
+    let horas = Math.floor(minutos / 60);
+    let dias = Math.floor(horas/ 24);
+
+    return dias + "dias" + horas + "horas" + minuros + "minutos" + segundos + "segundos";
+}
