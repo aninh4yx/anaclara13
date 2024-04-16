@@ -12,4 +12,6 @@ for (let i = 0; i < botoes.length; i++){
     }
 }
 const contadores = document.querySelectorAll(".contador");
-contadores[0].textContent = "contagem regresiva";
+const tempoObjetivo1 = new Date("2024-12-01T00:00:00");
+let tempoAnual = new Date ();
+contadores[0].textContent = tempoObjetivo1 - tempoAnual;
