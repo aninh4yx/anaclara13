@@ -24,9 +24,10 @@ for (let i=0; i< contadores.length; i++){
     contadores[i].textContent = calculaTempo(tempos[i]);
 }
 contadores[0].textContent = calculaTempo(tempoObjetivo1);
+
 function calculaTempo(tempoObjetivo1){
     let tempoAnual = new Date();
-    contadores[0].textContent = tempoObjetivo1 - tempoAnual;
+    let tempoFinal = tempoObjetivo1 - tempoAnual;
     let segundos = Math.floor(tempoFinal / 1000);
     let minutos = Math.floor(segundos/ 60);
     let horas = Math.floor(minutos / 60);
