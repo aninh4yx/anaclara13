@@ -12,7 +12,12 @@ for (let i = 0; i < botoes.length; i++){
     }
 }
 const contadores = document.querySelectorAll(".contador");
-const tempoObjetivo1 = new Date("2024-12-01T00:00:00");
+const tempoObjetivo1 = new Date("");
+const tempoObjetivo1 = new Date("");
+const tempoObjetivo1 = new Date("");
+const tempoObjetivo1 = new Date("");
+
+
 function calculaTempo(tempoObjetivo1){
     let tempoAnual = new Date();
     contadores[0].textContent = tempoObjetivo1 - tempoAnual;
